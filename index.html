@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset ="UTF-8">
+    <title>Alexander Archipenko</title>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /*:root{
+            --c:orange;
+            --altura:70vh
+        }*/
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            font-size: 15px;
+        }
+         header{
+            width:100%;
+             display:flex;
+        }
+         img{
+             width: 100%;
+            height:100%;
+        }
+         header>div{
+            height:60vh;
+            width:50%;
+        }
+         .bloc_esq{
+            background: purple;
+        }
+          .bloc_esq img{
+            object-fit: cover;
+            object-position: center;
+        }
+         .bloc_dre{
+            background: pink;
+        }
+          .bloc_dre img{
+            object-fit: cover;
+            object-position:right;
+        }
+        h1{
+            position:absolute;
+            text-align: center;
+            top: 24vh;
+            width: 100%;
+            font-size:40px;
+            font-family: 'Oleo Script', cursive;
+            color: coral;
+        }
+          article{
+              width: 40em;
+              margin: auto;
+        }
+        article p:first-child{
+            text-align:justify;
+            hyphens: auto;
+            line-height: 50px;
+            padding: 40px 0;
+            color: darkslategray;
+            column-count: 2;
+            column-gap: 1.7em;
+            text-align: justify;
+            hyphens: auto;
+            column-rule: 1px solid darkslategray;
+            line-height: 20px;
+        }
+        article #cos{
+            padding: 0 10em;
+            text-align: justify;
+            hyphens: auto;
+            width: auto;
+            margin: 0;
+             
+        }
+        article #cos>p:first-child::first-letter{
+                color: darkslategray;
+                font-family: ;
+                font-size: 90px;
+                float: left;
+                padding-right: 0.2em;
+                margin-top: -0.4em;
+                margin-bottom: -0.2em;     
+        }
+
+        .cercle,
+        .hexagon{
+            background:coral;
+        }
+        .cercle img, 
+        .hexagon img{
+            mix-blend-mode:multiply;
+        }
+        .cercle, 
+        .cercle img{
+            border-radius: 50%;
+        }
+            article #cos>p:first-child::first-letter{
+            color:darkgreen;
+            font-size: 90px;
+            float: left;
+            padding-right: 0.2em;
+            margin-top: -0.4em;
+            margin-top: -0.2em;
+        }
+      .cercle{
+                max-width: 18em;
+                float: left;
+                margin-left: -8em;
+                margin-right: 2em;
+                shape-margin: 1em;
+                shape-outside: circle(50%)border-box;
+            }
+        .hexagon, 
+        .hexagon img{
+            clip-path:polygon(45% 0%, 100% 15%, 100% 82%, 45% 100%, 0% 75%, 0% 15%);
+        }
+        .hexagon{
+            padding-left: 15px;
+            max-width: 15em;
+            float: right;
+            margin-right: 2em;
+            shape-margin: 1em;
+            shape-outside: polygon(45% 0%, 100% 15%, 100% 82%, 45% 100%, 0% 75%, 0% 15%)border-box;
+            
+        }
+        @media (max-width:600px){
+            body{
+                background: azure;
+                font-size: 10px;
+            }
+        }
+        
+    </style>
+    <head>
+       <body>
+           <header>
+               <div class="bloc_esq">
+                <img src="images/20e980fc076b0955996115972ad12388.jpg">
+               </div>
+               <div class="bloc_dre">
+                    <img src="images/woman-combing-her-hair-femme-debout-1914-archipenko.jpg">
+               </div>
+               <h1>Alexander Archipenko<br/>
+               Escultor y artista gráfico ucraniano de vanguardia</h1>
+           </header>
+          
+           <article>
+               <p>
+               Oleksandr Arjípenko nació en Kiev, actualmente Ucrania (por entonces parte del Imperio ruso), hijo de Porfiri Antónovich Arjípenko y Poroskovia Vasílievna Majovaya-Arjípenko; era el hermano menor de Yevgueni Arjípenko. Estudió pintura en Kiev desde 1902 hasta 1905, en la Escuela de arte de la ciudad (KKHU), y después continuó su educación artística como estudiante en S. Sviatoslavski en 1906 (también en Kiev). El mismo año expuso en Kiev junto a Aleksandr Bogomázov. Ese mismo año se trasladó a Moscú, donde pudo mostrar su obra en algunas exposiciones colectivas.</p>
+               <div id="cos"></div>
+               <p>
+               En 1908 se trasladó a París, donde se relacionó con los artistas de vanguardia, especialmente con los cubistas, siendo uno de los principales impulsores de la escultura cubista. Desde 1909 hasta 1914 residió en la colonia de artistas de La Ruche, entre artistas emigrados rusos como Vladímir Baranoff-Rossine, Sonia Delaunay-Terk y Nathan Altman. Después de 1910, expuso en el Salon des Independants, Salon D'Automne junto a Aleksandra Ekster, Kazimir Malévich, Vadim Meller, Sonia Delaunay-Terk así como Pablo Picasso, Georges Braque, André Derain. Su primera exposición individual se realizó en el Museo Folkwang de Hagen (1912). Durante el periodo 1912-1914 Arjípenko enseñaba en su propia escuela de arte en París. En 1913 sus obras aparecieron en el Armory Show de Nueva York. En 1914 se trasladó a Niza.</p>
+               
+               <p>
+               Tras la Primera Guerra Mundial participó en la XII Bienal de Venecia (1920), y se trasladó a Berlín donde, en 1921, abrió su propia escuela. Al año siguiente participó en la Primera Exposición de Arte Ruso en la Galería van Diemen de Berlín, junto a Aleksandra Ekster, Kazimir Malévich, Solomón Nikritin.</p>
+               
+               <p>
+               Asociado con el cubismo, Arjípenko se alejó de la escultura neoclásica de su época y usó el espacio negativo para crear una manera nueva de mirar a la figura humana, mostrando simultáneamente una serie de puntos de vista del sujeto. Se le conoce por haber introducido vacíos escultóricos, y por su invención de mezclar géneros a lo largo de su carrera: diseñando «esculto-pinturas», y más tarde experimentando con materiales tal como acrílico claro y terracota.</p>
+              <div class="cercle">
+                <img src="images/descarga.jpg" alt="escultura">
+                    </div><br/>
+               <p>
+                      Entre su producción son de mencionar sus «escultopinturas»:<br/>
+
+                      Mujer andando (1912)<br/>
+                      Carrousel Pierrot (1913)<br/>
+                      Medrano II (1913-1914)<br/>
+                      Encuentro de boxeo (1914)<br/>
+                      Gondolero (1914) <br/>
+                      Motivo egipcio (1917)<br/>
+                      La reina de Saba (1961)</p> <br/>
+                 
+               <p>
+                                    
+                      Entre las colecciones públicas en las que pueden verse obras de Arjípenko se encuentran:<br/>
+
+                      En Estados Unidos: la Galería Addison de Arte Estadounidense (Andover, Massachusetts, el Instituto de Arte de Chicago, el Museo de Arte Mary and Leigh Block (Universidad del Noroeste, Illinois), el Museo de Arte de la <div class="hexagon"><img src="images/56.1445_ph_web-1.jpg"></div>Universidad Brigham Young (Utah), los Museos de Bellas Artes de San Francisco, el Museo Guggenheim de Nueva York,el Museo Hirshhorn y Jardín de Esculturas (Washington D.C.), la Academia de Arte de Honolulu, Museo de Arte de la Universidad de Indiana (Bloomington), el Museo de Arte del Condado de Los Ángeles, el Museo de Arte Maier   (Randolph-Macon Woman's College, Virginia), el Museo de Arte de Milwaukee, el Museo de Bellas Artes de Montgomery (Alabama), el Museo de Bellas Artes de Boston, el Museo de Arte Moderno de Nueva York (Nueva York), el Centro de Escultura Nasher (Dallas, Texas), la Galería Nacional de Arte (Washington D.C.), el Museo de Arte de Carolina del Norte, el Museo Norton Simon (Pasadena, California), la colección Phillips (Washington D.C.), el Museo de Arte de Portland (Maine), el Museo de Arte de San Antonio (Texas), el Museo de Arte de San Diego (California), la Galería de arte Sheldon Memorial (Lincoln, Nebraska), el Museo de Arte Norteamericano Smithsoniano (Washington D.C.) y el Centro de Arte Walker (Minnesota).
+                      En Europa, el Museo del Hermitage, los Museos Nacionales y Galerías de Gales, la colección Peggy Guggenheim (Venecia), el Museo Städel (Fráncfort del Meno), la Tate y el Museo Von der Heydt-Museum (Wuppertal, Alemania).
+                      En Asia, el Museo Chi-Mei (Taiwan) y el museo de Arte de Tel Aviv.</p>
+           </article>
+       </body>
+        
+    </head>
+</html>
